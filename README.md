@@ -2,7 +2,16 @@
 
 ROS 2 기초/응용 교육에서 사용한 예제 코드와 슬라이드(PDF)를 포함합니다. 두 개의 독립적인 워크스페이스(1차시, 2차시)가 있으며 각 워크스페이스는 개별적으로 빌드·실행합니다.
 
-<img width="580" height="320" alt="Image" src="https://github.com/user-attachments/assets/2546a693-0db9-4d4c-a991-ea00ebed739c" />
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/user-attachments/assets/7f37d5cf-80c6-4b49-b2eb-cf3fb95fc646" alt="첫 번째 GIF 이미지" width="400">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/2546a693-0db9-4d4c-a991-ea00ebed739c" alt="두 번째 GIF 이미지" width="400">
+    </td>
+  </tr>
+</table>
 
 
 ## 사전 준비
