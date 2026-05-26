@@ -1,0 +1,40 @@
+running develop
+Removing /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto-turtle1.egg-link (link to .)
+running egg_info
+writing ../../build/auto_turtle1/auto_turtle1.egg-info/PKG-INFO
+writing dependency_links to ../../build/auto_turtle1/auto_turtle1.egg-info/dependency_links.txt
+writing entry points to ../../build/auto_turtle1/auto_turtle1.egg-info/entry_points.txt
+writing requirements to ../../build/auto_turtle1/auto_turtle1.egg-info/requires.txt
+writing top-level names to ../../build/auto_turtle1/auto_turtle1.egg-info/top_level.txt
+reading manifest file '../../build/auto_turtle1/auto_turtle1.egg-info/SOURCES.txt'
+writing manifest file '../../build/auto_turtle1/auto_turtle1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build
+creating /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib
+creating /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1
+copying auto_turtle1/auto_sub.py -> /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1
+copying auto_turtle1/stop_signal.py -> /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1
+copying auto_turtle1/__init__.py -> /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1
+copying auto_turtle1/auto_pub.py -> /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1
+running install
+running install_lib
+creating /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1
+copying /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1/auto_sub.py -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1
+copying /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1/stop_signal.py -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1
+copying /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1/__init__.py -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1
+copying /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1/auto_pub.py -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1
+byte-compiling /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1/auto_sub.py to auto_sub.cpython-310.pyc
+byte-compiling /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1/stop_signal.py to stop_signal.cpython-310.pyc
+byte-compiling /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1/auto_pub.py to auto_pub.cpython-310.pyc
+running install_data
+copying resource/auto_turtle1 -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/share/ament_index/resource_index/packages
+copying package.xml -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/share/auto_turtle1
+running install_egg_info
+Copying ../../build/auto_turtle1/auto_turtle1.egg-info to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing auto_pub script to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/auto_turtle1
+Installing auto_sub script to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/auto_turtle1
+Installing stop_signal script to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/auto_turtle1
+writing list of installed files to '/home/yoo/ROS2_education/edu_ws/build/auto_turtle1/install.log'

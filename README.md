@@ -21,7 +21,7 @@ ROS 2 기초/응용 교육에서 사용한 예제 코드와 슬라이드(PDF)를
 - 데모 패키지별 의존성
   - 공통: `rclpy`, `geometry_msgs`, `std_msgs`
   - 1차시(turtlesim): `turtlesim`
-  - 2차시(이미지 처리): `sensor_msgs`, `cv_bridge`, `OpenCV`, `numpy`
+  - 2차시(이미지 처리): `sensor_msgs`, `OpenCV`, `numpy`
 
 의존성 설치 명령:
 
@@ -31,7 +31,6 @@ sudo apt install -y \
   ros-humble-desktop \
   python3-colcon-common-extensions \
   ros-humble-turtlesim \
-  ros-humble-cv-bridge \
   python3-opencv python3-numpy
 
 # ROS 환경 설정(새 터미널마다 적용)
@@ -77,22 +76,24 @@ source /opt/ros/humble/setup.bash
 
 ## 2차시: move_turtle_pkg
 
-OpenCV Farneback Dense Optical Flow를 이용해 이미지 흐름으로 거북이 회전을 보정하는 데모입니다. 실습용으로 일부 항목은 TODO 상태입니다.
+OpenCV Farneback Dense Optical Flow를 이용해 이미지 흐름으로 거북이 회전을 보정하는 데모입니다. 기본 의존성, 엔트리 포인트, 토픽 기본값이 채워져 있으며 필요하면 런타임 파라미터로 바꿀 수 있습니다.
 
 - 주요 스크립트: `edu2_ws/src/move_turtle_pkg/move_turtle_pkg/move_by_img.py`
 - 튜닝 파라미터: `base_speed`, `k_angular`, `flow_mag_th`
 
-### 실습 TODO(필수 수정 포인트)
+### 기본 설정
 
-1) `package.xml` 의존성 보강
-   - `sensor_msgs`, `geometry_msgs`, `cv_bridge` 등을 `<depend>`에 추가
-2) `setup.py` 엔트리 포인트 수정
+1) `package.xml` 의존성
+   - `rclpy`, `sensor_msgs`, `geometry_msgs`
+2) `setup.py` 엔트리 포인트
    - `move_by_img = move_turtle_pkg.move_by_img:main`
-3) 코드 내 토픽 이름 지정
-   - 이미지 구독 토픽: 예) `'/camera/image_raw'` (카메라/백(bag) 파일에 맞춰 수정)
+3) 기본 토픽
+   - 이미지 구독 토픽: `'/camera/image_raw'`
    - 제어 퍼블리시 토픽: `'/turtle1/cmd_vel'`
-4) 퍼블리시 호출 인자 보완
-   - `self.pub.publish(twist)` 형태로 메시지 객체를 전달
+4) 런타임 파라미터 오버라이드 예시
+   - `ros2 run move_turtle_pkg move_by_img --ros-args -p image_topic:=/your/image/topic`
+5) 지원 이미지 인코딩
+   - `mono8`, `8UC1`, `bgr8`, `rgb8`, `bgra8`, `rgba8`
 
 ### 실행 예시(토픽 연결 후)
 
@@ -121,4 +122,3 @@ OpenCV Farneback Dense Optical Flow를 이용해 이미지 흐름으로 거북�
 
 - 슬라이드: `ROS 교육 PPT v1.pdf`, `ROS 교육 2차시 PPT.pdf`
 - Maintainer: yoo <smzzang21@konkuk.ac.kr>
-

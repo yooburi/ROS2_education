@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating auto_turtle1.egg-info
+writing auto_turtle1.egg-info/PKG-INFO
+writing dependency_links to auto_turtle1.egg-info/dependency_links.txt
+writing entry points to auto_turtle1.egg-info/entry_points.txt
+writing requirements to auto_turtle1.egg-info/requires.txt
+writing top-level names to auto_turtle1.egg-info/top_level.txt
+writing manifest file 'auto_turtle1.egg-info/SOURCES.txt'
+reading manifest file 'auto_turtle1.egg-info/SOURCES.txt'
+writing manifest file 'auto_turtle1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto-turtle1.egg-link (link to .)
+Installing auto_pub script to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/auto_turtle1
+Installing auto_sub script to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/auto_turtle1
+Installing stop_signal script to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/auto_turtle1
+
+Installed /home/yoo/ROS2_education/edu_ws/build/auto_turtle1
+running symlink_data
+creating /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/share/ament_index
+creating /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/share/ament_index/resource_index
+creating /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/share/ament_index/resource_index/packages
+symbolically linking /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/resource/auto_turtle1 -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/share/ament_index/resource_index/packages
+symbolically linking /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/package.xml -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/share/auto_turtle1

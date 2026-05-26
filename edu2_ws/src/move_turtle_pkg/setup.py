@@ -15,8 +15,8 @@ setup(
     zip_safe=True,
     maintainer='yoo',
     maintainer_email='smzzang21@konkuk.ac.kr',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Optical flow-based turtlesim controller for ROS 2 education.',
+    license='Proprietary',
     extras_require={
         'test': [
             'pytest',
@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'move_by_img = ().move_by_img:main',
+            'move_by_img = move_turtle_pkg.move_by_img:main',
         ],
     },
 )

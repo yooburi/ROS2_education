@@ -1,0 +1,44 @@
+[0.520s] Invoking command in '/home/yoo/ROS2_education/edu_ws/build/auto_turtle1': PYTHONPATH=/home/yoo/ROS2_education/edu_ws/build/auto_turtle1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build
+[0.730s] running develop
+[0.883s] Removing /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto-turtle1.egg-link (link to .)
+[0.908s] Invoked command in '/home/yoo/ROS2_education/edu_ws/build/auto_turtle1' returned '0': PYTHONPATH=/home/yoo/ROS2_education/edu_ws/build/auto_turtle1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build
+[0.909s] Invoking command in '/home/yoo/ROS2_education/edu_ws/src/auto_turtle1': PYTHONPATH=/home/yoo/ROS2_education/edu_ws/build/auto_turtle1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_turtle1 build --build-base /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build install --record /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/install.log --single-version-externally-managed install_data --force
+[1.102s] running egg_info
+[1.102s] writing ../../build/auto_turtle1/auto_turtle1.egg-info/PKG-INFO
+[1.103s] writing dependency_links to ../../build/auto_turtle1/auto_turtle1.egg-info/dependency_links.txt
+[1.103s] writing entry points to ../../build/auto_turtle1/auto_turtle1.egg-info/entry_points.txt
+[1.103s] writing requirements to ../../build/auto_turtle1/auto_turtle1.egg-info/requires.txt
+[1.103s] writing top-level names to ../../build/auto_turtle1/auto_turtle1.egg-info/top_level.txt
+[1.104s] reading manifest file '../../build/auto_turtle1/auto_turtle1.egg-info/SOURCES.txt'
+[1.105s] writing manifest file '../../build/auto_turtle1/auto_turtle1.egg-info/SOURCES.txt'
+[1.105s] running build
+[1.105s] running build_py
+[1.105s] creating /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build
+[1.105s] creating /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib
+[1.105s] creating /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1
+[1.105s] copying auto_turtle1/auto_sub.py -> /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1
+[1.105s] copying auto_turtle1/stop_signal.py -> /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1
+[1.105s] copying auto_turtle1/__init__.py -> /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1
+[1.105s] copying auto_turtle1/auto_pub.py -> /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1
+[1.105s] running install
+[1.106s] running install_lib
+[1.106s] creating /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1
+[1.106s] copying /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1/auto_sub.py -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1
+[1.107s] copying /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1/stop_signal.py -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1
+[1.107s] copying /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1/__init__.py -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1
+[1.107s] copying /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build/lib/auto_turtle1/auto_pub.py -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1
+[1.107s] byte-compiling /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1/auto_sub.py to auto_sub.cpython-310.pyc
+[1.107s] byte-compiling /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1/stop_signal.py to stop_signal.cpython-310.pyc
+[1.108s] byte-compiling /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1/__init__.py to __init__.cpython-310.pyc
+[1.108s] byte-compiling /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1/auto_pub.py to auto_pub.cpython-310.pyc
+[1.108s] running install_data
+[1.108s] copying resource/auto_turtle1 -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/share/ament_index/resource_index/packages
+[1.108s] copying package.xml -> /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/share/auto_turtle1
+[1.108s] running install_egg_info
+[1.109s] Copying ../../build/auto_turtle1/auto_turtle1.egg-info to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages/auto_turtle1-0.0.0-py3.10.egg-info
+[1.110s] running install_scripts
+[1.125s] Installing auto_pub script to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/auto_turtle1
+[1.125s] Installing auto_sub script to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/auto_turtle1
+[1.125s] Installing stop_signal script to /home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/auto_turtle1
+[1.125s] writing list of installed files to '/home/yoo/ROS2_education/edu_ws/build/auto_turtle1/install.log'
+[1.149s] Invoked command in '/home/yoo/ROS2_education/edu_ws/src/auto_turtle1' returned '0': PYTHONPATH=/home/yoo/ROS2_education/edu_ws/build/auto_turtle1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yoo/ROS2_education/edu_ws/install/auto_turtle1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/auto_turtle1 build --build-base /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/build install --record /home/yoo/ROS2_education/edu_ws/build/auto_turtle1/install.log --single-version-externally-managed install_data --force

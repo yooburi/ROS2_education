@@ -1,0 +1,3 @@
+[console_scripts]
+move_by_img = move_turtle_pkg.move_by_img:main
+

@@ -1,0 +1,5 @@
+[console_scripts]
+auto_pub = auto_turtle1.auto_pub:main
+auto_sub = auto_turtle1.auto_sub:main
+stop_signal = auto_turtle1.stop_signal:main
+

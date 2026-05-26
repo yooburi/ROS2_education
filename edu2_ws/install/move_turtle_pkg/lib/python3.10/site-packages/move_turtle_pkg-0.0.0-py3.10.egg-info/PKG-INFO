@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: move-turtle-pkg
+Version: 0.0.0
+Summary: Optical flow-based turtlesim controller for ROS 2 education.
+Home-page: UNKNOWN
+Maintainer: yoo
+Maintainer-email: smzzang21@konkuk.ac.kr
+License: Proprietary
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

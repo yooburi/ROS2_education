@@ -15,8 +15,8 @@ setup(
     zip_safe=True,
     maintainer='yoo',
     maintainer_email='smzzang21@konkuk.ac.kr',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Basic turtlesim publisher and subscriber examples for ROS 2 education.',
+    license='Proprietary',
     extras_require={
         'test': [
             'pytest',
